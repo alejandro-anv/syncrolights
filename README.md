@@ -22,7 +22,7 @@ This crylsals will be 3D printed with tarnspartent PLA wich will result in a tra
 
 The base is printed with black PLA. I've uploaded the model to thingiverse
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
+(https://www.thingiverse.com/thing:3537644)
 
 
 # The electronics
@@ -30,4 +30,4 @@ For this function we will use a WEMOS D1 Mini module which consists on an ESP826
 
 (https://www.aliexpress.com/item/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-by/32651747570.html)
 
-
+(to be continued)
