@@ -26,8 +26,21 @@ The base is printed with black PLA. I've uploaded the model to thingiverse
 
 
 # The electronics
-For this function we will use a WEMOS D1 Mini module which consists on an ESP8266 processor with an USB-SRIAL CH340; they are very cehap (about $3). The color lights will b RGB LEDs driven by transistors for allowing to connect various of them without overloading the ESP9266 aoutputs. The power will be provided driectly from USB using a phone chargr.
+For this function we will use a WEMOS D1 Mini module which consists on an ESP8266 processor with an USB-SRIAL CH340; they are very cehap (about $3). The color lights will be RGB LEDs driven by transistors for allowing to connect various of them without overloading the ESP9266 GPIO aoutputs. The power will be provided driectly from USB using a phone charger connected to the micro-USB port of the board.
 
+
+![pic](pics/wemos-d1-mini.jpg)
 (https://www.aliexpress.com/item/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-by/32651747570.html)
+
+For choosing the color, wee need a pushbutton. In the prototype I used a common one connected from pin D3 to GND but in the final version I decded to use some more "geek". I've found the TTP223 caacitive modules at 10 for $1,24, then I decided to include one. NOTE: for simulating the active-low effect you must solder the jumper A on the board
+
+![pic](pics/TTP223.jpg)
+https://www.ebay.com/itm/10X-TTP223-Touch-Key-Module-Capacitive-Settable-Self-lock-No-lock-Switch-Board/332931518377
+
+Nevertheless, I've used a pushbutton that can be accessed through a small hole in the down side that will be used to enter configuration mode.
+![pic](pics/pb.png)
+
+
+
 
 (to be continued)
